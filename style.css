@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    background-image: 
+    url("bg.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    size: inherit;
+}
+.container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card{
+    height: 420px;
+    width: 300px;
+    background-color: #ebdcdc;
+    position: absolute;
+    top: 150px;
+}
+#cover{
+    height: 180px;
+    width: 98%;
+    padding: 3px;
+    padding-bottom: 0%;
+    opacity: 0.9;
+}
+#pp{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    border: 2px solid white;
+}
+#pname{
+    margin: 0%;
+    position: relative;
+    top: -40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+#ll{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    padding-left: 0%;
+    position: relative;
+    top: -30px;
+    color: rgb(114, 111, 111);
+}
+li{
+    margin: 4px;
+    list-style-type: none;
+    padding-right: 4px;
+}
+.soc li{
+    float: left;
+}
+.soc img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.soc{
+    position: relative;
+    top: -40px;
+    left: -15px;
+}
